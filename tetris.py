@@ -5,3 +5,9 @@ Teacher: I. McTavish
 Date: Dec 1, 2016"""
 
 #Global Variables
+
+class Score:
+  def __init__(self):
+    self.score = 0
+  def update_score(self):
+    print("in update score")
