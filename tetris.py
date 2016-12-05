@@ -24,3 +24,38 @@ class Block:
         print("In block rotate")
     def check_collision(self):
         print("In check collision")
+class Music:
+    def __init__(self):
+        self.Music = 0
+
+    def play_music(self):
+        print("in play music")
+
+    def play_sound_right(self):
+        print("in play soundright")
+
+    def play_sound_left(self):
+        print("in play sound left")
+
+    def  play_sound_flip(self):
+        print("in play sound flip")
+
+    def play_sound_falling(self):
+        print("in play sound falling")
+
+class Game_Grid:
+    def __init__(self):
+        self.Game_Grid = 0
+
+    def update(self):
+        print("in update")
+
+    def draw(self):
+        print("in draw")
+
+def main(winstyle = 0):
+    print("in main method")
+
+
+#call the "main" function if running this script
+if __name__ == '__main__': main()
